@@ -295,7 +295,7 @@ With a deep focus on user experience and solid technical execution, I turn ideas
                     <span className="text-gray-500">// Hello, I'm Oluwaferanmi</span>{'\n'}
                     <span className="text-rose-400">const</span> <span className="text-orange-300">developer</span> <span className="text-white">=</span> <span className="text-white">{'{'}</span>{'\n'}
                     {'  '}<span className="text-rose-400">name</span><span className="text-white">:</span> 
-                    {'  '}<span className="text-rose-400">role</span>: <span className="text-lime-400">'Product Designer & <br /> Full-Stack Developer'</span>,{'\n'}
+                    {'  '}<span className="text-rose-400">role</span>: <span className="text-lime-400">'Product Designer<br /> & Full-Stack Developer'</span>,{'\n'}
         {'  '}<span className="text-rose-400">experience</span>: <span className="text-orange-400">5</span>,{'\n'}
         {'  '}<span className="text-rose-400">skills</span>: [{'\n'}
         {'    '}<span className="text-lime-400">'React'</span>, <span className="text-lime-400">'Next.js'</span>, <span className="text-lime-400">'Node.js'</span>,{'\n'}
@@ -303,11 +303,7 @@ With a deep focus on user experience and solid technical execution, I turn ideas
         {'    '}<span className="text-lime-400">'GitHub Actions'</span>{'\n'}
         {'  '}],{'\n'}
         {'};'}{'\n\n'}
-        <span className="text-rose-400">function</span> <span className="text-orange-300">createAmazingApps</span>() {'{'}{'\n'}
-        {'  '}<span className="text-rose-400">return</span> developer.skills.map(<span className="text-orange-300">magic</span>) =&gt; {'{'}{'\n'}
-        {'    '}<span className="text-gray-500">// Building something amazing...</span>{'\n'}
-        {'  '}{'});'}{'\n'}
-        {'}'}
+
                   </code>
                 </pre>
               </div>
