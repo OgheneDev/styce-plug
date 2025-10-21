@@ -239,14 +239,14 @@ export function About() {
                   y: -5,
                   boxShadow: "0 15px 30px rgba(0,0,0,0.4)"
                 }}
-                className="px-8 py-4 bg-neutral-900/70 backdrop-blur-md rounded-full border border-neutral-600/50 flex items-center space-x-4 cursor-pointer"
+                className="px-8 py-4 bg-neutral-900/70 backdrop-blur-md rounded-full border border-neutral-600/50 flex md:gap-3 flex-col md:flex-row items-center space-x-4 cursor-pointer"
               >
-                <stat.icon className={`h-8 w-8 ${stat.color}`} />
+                <stat.icon className={`h-8 w-8 mx-auto md:mx-0 ${stat.color}`} />
                 <div>
-                  <div className={`text-2xl font-bold ${stat.color}`}>
+                  <div className={`text-2xl font-bold text-center md:text-start ${stat.color}`}>
                     {stat.value}
                   </div>
-                  <div className="text-gray-300 text-sm">
+                  <div className="text-gray-300 text-sm text-center md:text-start">
                     {stat.label}
                   </div>
                 </div>

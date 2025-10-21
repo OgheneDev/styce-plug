@@ -4,7 +4,7 @@ import nodemailer from "nodemailer"
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'styceplug@gmail.com',
+    user: 'joytalker8@gmail.com',
     // Create an app password in your Google Account settings
     pass: process.env.GMAIL_APP_PASSWORD
   }
@@ -15,8 +15,8 @@ export async function POST(req: Request) {
     const { name, email, message } = await req.json()
 
     const mailOptions = {
-      from: 'styceplug@gmail.com',
-      to: 'styceplug@gmail.com',
+      from: 'joytalker8@gmail.com',
+      to: 'joytalker8@gmail.com',
       subject: `New Contact Form Submission from ${name}`,
       text: `
         Name: ${name}
