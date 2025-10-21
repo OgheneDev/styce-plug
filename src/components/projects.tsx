@@ -19,7 +19,6 @@ export function Projects() {
       description: "Modern property discovery platform for home hunting. Responsive apps for iOS, Android, and web using Flutter and React. Features: explore listings, book inspections, connect with agents; ensures brand consistency and efficient backend.",
       technologies: ["Flutter", "React", "TypeScript", "Node.js", "TailwindCSS", "Framer Motion"],
       links: [
-        { url: "https://rheel.ng/", label: "Website" },
         { url: "https://apps.apple.com/ng/app/rheel/id6467382726", label: "App Store" },
         { url: "https://play.google.com/store/apps/details?id=rheel.easy.property.search", label: "Play Store" }
       ]
@@ -58,7 +57,9 @@ export function Projects() {
       title: "Rheel Estate Website",
       description: "Seamless real estate exploration platform for browsing and filtering listings. Focuses on speed, responsiveness, SEO, and intuitive UI. Frontend developed with React.js, TailwindCSS, REST APIs.",
       technologies: ["React.js", "TailwindCSS", "REST APIs"],
-      links: []
+      links: [
+        { url: "https://rheel.ng/", label: "Website" },
+      ]
     },
     {
       title: "Burn & Co.",
