@@ -173,13 +173,13 @@ function createAmazingApps() {
             </motion.div>
 
             <motion.div variants={itemVariants} className="flex space-x-8 mb-7">
-              <Link href="https://github.com/OgheneDev" className="group">
+              <Link href="http://github.com/styceplug" className="group">
                 <Github className="h-7 w-7 text-gray-400 group-hover:text-rose-400 transition-all duration-300 group-hover:scale-125" />
               </Link>
-              <Link href="https://www.linkedin.com/in/Oluwaferanmi-oghene-0242182ab" className="group">
+              <Link href="https://ng.linkedin.com/in/uibystyce" className="group">
                 <Linkedin className="h-7 w-7 text-gray-400 group-hover:text-orange-400 transition-all duration-300 group-hover:scale-125" />
               </Link>
-              <Link href="mailto:Oluwaferanmioghene72@gmail.com" className="group">
+              <Link href="mailto:styceplug@gmail.com" className="group">
                 <Mail className="h-7 w-7 text-gray-400 group-hover:text-lime-400 transition-all duration-300 group-hover:scale-125" />
               </Link>
             </motion.div>
@@ -321,13 +321,13 @@ With a deep focus on user experience and solid technical execution, I turn ideas
             </motion.div>
 
             <motion.div variants={itemVariants} className="flex justify-center space-x-8 pt-4 mb-10">
-              <Link href="https://github.com/OgheneDev" className="group">
+              <Link href="http://github.com/styceplug" className="group">
                 <Github className="h-7 w-7 text-gray-400 group-hover:text-rose-400 transition-all group-hover:scale-125" />
               </Link>
-              <Link href="https://www.linkedin.com/in/Oluwaferanmi-oghene-0242182ab" className="group">
+              <Link href="https://ng.linkedin.com/in/uibystyce" className="group">
                 <Linkedin className="h-7 w-7 text-gray-400 group-hover:text-orange-400 transition-all group-hover:scale-125" />
               </Link>
-              <Link href="mailto:Oluwaferanmioghene72@gmail.com" className="group">
+              <Link href="mailto:styceplug@gmail.com" className="group">
                 <Mail className="h-7 w-7 text-gray-400 group-hover:text-lime-400 transition-all group-hover:scale-125" />
               </Link>
             </motion.div>
