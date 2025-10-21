@@ -228,7 +228,7 @@ export function About() {
             variants={containerVariants}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
-            className="flex flex-wrap justify-center gap-6"
+            className="grid grid-cols-2 md:grid-cols-4 justify-center gap-6"
           >
             {stats.map((stat, i) => (
               <motion.div
