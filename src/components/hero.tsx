@@ -202,7 +202,7 @@ function createAmazingApps() {
               }}
             >
               {/* Code Editor Card */}
-              <div className="bg-neutral-900/90 backdrop-blur-xl rounded-2xl border border-neutral-800 shadow-2xl overflow-hidden w-[590px] transform-gpu">
+              <div className="bg-neutral-900/90 backdrop-blur-xl rounded-2xl border border-neutral-800 shadow-2xl overflow-hidden w-[580px] cursor-pointer transform-gpu">
                 {/* Title Bar */}
                 <div className="bg-neutral-800/80 px-5 py-4 flex items-center text-sm justify-between border-b border-neutral-700">
                   <div className="flex space-x-3">
@@ -224,7 +224,7 @@ function createAmazingApps() {
                       {'  '}<span className="text-rose-400">experience</span><span className="text-white">:</span> <span className="text-orange-400">5</span><span className="text-white">,</span>{'\n'}
                       {'  '}<span className="text-rose-400">skills</span><span className="text-white">:</span> <span className="text-white">[</span>{'\n'}
                       {'    '}<span className="text-lime-400">'React'</span><span className="text-white">,</span> <span className="text-lime-400">'Next.js'</span><span className="text-white">,</span> <span className="text-lime-400">'Node.js'</span>{'\n'}
-                      {'    '}<span className="text-lime-400">'TypeScript'</span><span className="text-white">,</span> <span className="text-lime-400">'Express'</span>{'\n'}
+                      {'    '}<span className="text-lime-400">'TypeScript'</span><span className="text-white">,</span> <span className="text-lime-400">'Express'</span>, <span className="text-lime-400">'Dart'</span>,{'\n'}
                       {'  '}<span className="text-white">],</span>{'\n'}
                       <span className="text-white">{'};'}</span>{'\n\n'}
                       <span className="text-rose-400">function</span> <span className="text-orange-300">createAmazingApps</span><span className="text-white">() {'{'}</span>{'\n'}
@@ -300,7 +300,7 @@ With a deep focus on user experience and solid technical execution, I turn ideas
         {'  '}<span className="text-rose-400">skills</span>: [{'\n'}
         {'    '}<span className="text-lime-400">'React'</span>, <span className="text-lime-400">'Next.js'</span>, <span className="text-lime-400">'Node.js'</span>,{'\n'}
         {'    '}<span className="text-lime-400">'TypeScript'</span>, <br /> <span className="text-lime-400">'Express'</span>, <span className="text-lime-400">'TailwindCSS'</span>,{'\n'}
-        {'    '}<span className="text-lime-400">'GitHub Actions'</span>{'\n'}
+        {'    '}<span className="text-lime-400">'GitHub Actions'</span>, <span className="text-lime-400">'Dart'</span>,{'\n'}
         {'  '}],{'\n'}
         {'};'}{'\n\n'}
 
