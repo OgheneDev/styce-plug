@@ -151,7 +151,7 @@ export function Header() {
               animate="open"
               exit="closed"
               variants={menuVariants}
-              className="fixed inset-0 min-h-screen bg-linear-to-br from-neutral-950 via-rose-950/20 to-lime-950/20 backdrop-blur-2xl z-100 overflow-hidden"
+              className="fixed inset-0 min-h-screen bg-black/90 backdrop-blur-2xl z-100 overflow-hidden"
             >
               <div className="h-dvh flex flex-col">
                 {/* Mobile Header */}
